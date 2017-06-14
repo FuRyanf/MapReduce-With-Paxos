@@ -1,0 +1,2 @@
+#! /bin/bash
+killall -9 paxos1 paxos2 paxos3 *.py python

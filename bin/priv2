@@ -1,0 +1,3 @@
+#! /bin/bash
+ssh -t -i cs171Key.pem ubuntu@128.111.84.196 \
+ssh -t -i cs171Key.pem ubuntu@10.2.96.169

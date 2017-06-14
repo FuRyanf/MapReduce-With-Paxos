@@ -1,0 +1,6 @@
+#! /bin/bash
+./map.py setup/map_a_setup.txt &
+./map.py setup/map_b_setup.txt &
+./reduce.py setup/reduce_setup.txt &
+./prm.py setup/prm_3_3_setup.txt &
+./cli.py setup/cli_3_setup.txt

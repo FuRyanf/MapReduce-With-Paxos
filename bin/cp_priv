@@ -1,0 +1,3 @@
+#! /bin/bash
+scp -i cs171Key.pem -r cli.py map.py reduce.py prm.py test_reduced file1 file2 setup bin ubuntu@10.2.96.186:/home/ubuntu
+scp -i cs171Key.pem -r cli.py map.py reduce.py prm.py test_reduced file1 file2 setup bin ubuntu@10.2.96.169:/home/ubuntu
